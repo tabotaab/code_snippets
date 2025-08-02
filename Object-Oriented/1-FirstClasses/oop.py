@@ -12,3 +12,7 @@ class Employee:
 
 emp_1 = Employee('Corey', 'Schafer', 50000)
 emp_2 = Employee('Test', 'Employee', 60000)
+
+# These are the same
+print(emp_1.fullname())
+print(Employee.fullname(emp_1))
